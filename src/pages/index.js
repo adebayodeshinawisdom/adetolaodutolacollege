@@ -2,6 +2,25 @@ import { MenuIcon } from 'lucide-react'
 import React from 'react'
 
 const Home = () => {
+  const presidents = [
+    { 
+      name: "",
+      profile: "Pharm. Babatunde Busari.  Pioneer President AOCOSA'94 set 2014 - 2019. Since its founding in 2014, the Adeola Odutola College Ijebu ode Ogun State 1994 old students Association has been led by three visionary presidents. Pharm. Babatunde Busari was the first president of the association, serving from 2014 to 2019. During his tenure, Pharm. Busari laid the foundation for the association, establishing its mission and vision, and setting up its organizational structure. He also led efforts to build a strong alumni network and establish connections with the school administration. Under his leadership, the association made significant strides in promoting educational excellence and fostering a spirit of love."
+      , picture: "/images/4.jpg"
+    }, 
+
+    { 
+      name: "",
+      profile: "Magistrate Bukky Raheem-Alejo.  President AOCOSA'94 set  2019 - 2022. The second president of the association, Magistrate Bukky Raheem-Alejo, took office in 2019 and served until 2022. Magistrate Raheem-Alejo continued the work of her predecessor, strengthening the association's relationship with the school and expanding its reach through social media. She also focused on increasing the association's membership and developing new initiatives to support students. Under her leadership, the association established a mentorship program and hosted a number of successful events."
+      , picture: "/images/president2.jpg"
+    },
+    { 
+      name: "",
+      profile: "Alhaji ( Dr.) Bisiriyu Kolawole Fatai.   President AOCOSA'94  2022 - Till date. The current president, Alhaji (Dr) Bisiriyu Kolawole Fatai, took office in 2022. He is a highly accomplished individual who PhD in Accounting. Alhaji (Dr) Bisiriyu Kolawole Fatai is an impressive individual who has achieved great success in his career. He is a highly respected leader in the community, and his dedication to service is an inspiration to all. His education and professional background are impressive, and he has used his skills and experience to make a positive impact in his community.\n \n "
+      , profile2: "Alhaji (Dr) Fatai has a Doctorate in Accounting , and he is a passionate advocate for economic development and entrepreneurship.Alhaji (Dr) Bisiriyu Kolawole Fatai's tenure as president of AOCOSA '94 set has been marked by a renewed sense of purpose and energy. He has set a clear vision for the association, which includes expanding its reach and enhancing its programs and services. His commitment to excellence and quality", 
+      picture: "/images/president1.jpg"
+    }
+  ]
   const students = [
       { name: "Dr. Kolawole Basiru",
         post: "President",
@@ -19,11 +38,11 @@ const Home = () => {
         post: "",
         image: "images/4.jpg"
       },
-      { name: "Pastor Wale Ali",
+      { name: "Mr Adesoji Adegunwa",
         post: "",
         image: "images/5.jpg"
       },
-      { name: "Hon. Abolore",
+      { name: "Pastor Wale Alli",
         post: "",
         image: "images/6.jpg"
       },
@@ -35,42 +54,21 @@ const Home = () => {
         post: "",
         image: "images/8.jpg"
       },
-      { name: "Pastor Olumide Asorona",
+      { name: "Mrs Mopelola Oyekan",
         post: "",
         image: "images/9.jpg"
       },
-      { name: "Mrs. Adesola",
+      { name: "Pastor Asorona Olumide",
         post: "",
         image: "images/10.jpg"
       },
   ]
   return (
     <div>
-        <header className="bg-gradient-to-t from-yellow-500 to-red-900 text-white py-3">
-        <div className="flex px-10 justify-between gap-5">
-          
-            <img src="images/adeolaodutala.jpg" style={{with: "50px", height: "50px"}}/>
-            <h1 className="text-xl md:text-2xl font-bold md:font-extrabold">Adeola Odutola College  1994 Alumni</h1>
-            
-           <MenuIcon className='flex md:hidden'/>
-
-        <div className="hidden md:flex px-5 gap-10">
-            <a href="#hero">Home</a>
-            <a href="#student">1994 Set Students</a>
-            <a href="#hero">Events</a>
-        </div>
-
-        <div className="hidden md:flex px-5 gap-10">
-            <a href="#hero">Advertise Your Business</a>
-            <a href="#course">Sign Up </a>
-            <a href="#course">Login</a>
-        </div>
-        </div>
-    </header>
-
-    <section id="hero" className="relative h-[400px]">
+        
+    <section id="hero" className="relative h-[600px]">
        
-        <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: "url('images/college2.jpg')"}}></div>
+        <div className="absolute inset-0 bg-cover bg-center" style={{backgroundImage: "url('images/gallery21.jpg')"}}></div>
       
        
         <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -84,6 +82,20 @@ const Home = () => {
         </div>
       </section>
 
+      <section id="student" className="px-8 py-[140px]">
+        <h3 className="text-3xl text-slate-900 font-bold py-10 text-center">Presidents</h3>
+        
+        <div className="grid grid-cols-1 gap-[80px] md:grid-cols-3">
+           {presidents.map((student, index )=> (
+             <div key={index}>
+             <img src={student.picture} className="w-[60%] rounded-xl h-[40%] md:w-[250px] md:h-[250px]  mx-[80px] md:mx-[80px]"/>
+             <p className='text-justify'>{student.profile}</p>
+             <p className='text-justify'>{student.profile2}</p>
+         </div>
+           ))}
+
+            </div>
+        </section>
 
       <section id="student" className="px-8 py-10">
         <h3 className="text-3xl text-slate-900 font-bold py-10 text-center">1994 Set</h3>
