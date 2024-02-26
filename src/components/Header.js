@@ -19,13 +19,13 @@ const Header = () => {
             
            <MenuIcon className='flex md:hidden cursor-pointer' onClick={toggleMenu}/>
 
-        <div className="hidden md:flex px-5 gap-10">
+        <div className="hidden md:flex px-5 gap-5">
             <a href="/">Home</a>
-            <a href="#student">1994 Set Students</a>
+            <a href="#student">AOCOSA 94 set Members</a>
             <a href="gallery">Events</a>
         </div>
 
-        <div className="hidden md:flex px-5 gap-10">
+        <div className="hidden md:flex px-5 gap-5">
             <a href="#hero">Advertise Your Business</a>
             <a href="#course">Sign Up </a>
             <a href="#course">Login</a>
@@ -44,7 +44,7 @@ const Header = () => {
           <button onClick={toggleMenuOff} className="ml-[250px]"><X/></button>
           
           <a href="/" className='my-5'>Home</a>
-            <a href="#student" className='my-5'>1994 Set Students</a>
+            <a href="#student" className='my-5'>AOCOSA 94 set Members</a>
             <a href="gallery" className='my-5'>Events</a>
             <a href="#hero" className='my-5'>Advertise Your Business</a>
             <a href="#course" className='my-5'>Sign Up </a>
