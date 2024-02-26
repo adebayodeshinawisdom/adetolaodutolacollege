@@ -38,10 +38,10 @@ const Home = () => {
         WorkAddress: "Ogun State Government, Ogun State Planning and Development Permit Authority, Oke Mosan"
 
       },
-      { name: "Adesoji Adegunwa",
-        post: "",
-        image: "images/4.jpg"
-      },
+      // { name: "Adesoji Adegunwa",
+      //   post: "",
+      //   image: "images/4.jpg"
+      // },
       { name: "Mr Adesoji Adegunwa",
         post: "",
         image: "images/5.jpg"
@@ -82,6 +82,7 @@ const Home = () => {
           <div className="text-center">
             <h3 className="text-4xl font-bold py-10 uppercase mx-20">ADEOLA ODUTOLA  ALUMNI <br/>1994 SET</h3>
             <p><span className="font-bold"></span> Reunion Platform</p>
+            <p className='text-3xl font-bold'>Please pay your dues at Provided Bank Details: <br/> Union Bank, <br/> Account No 0060662652, <br/>Account Name: Adeola Odutola College Old Students Association </p>
           </div>
         </div>
       </section>
@@ -89,12 +90,12 @@ const Home = () => {
       <section className='px-8 py-[140px]'>
         
         <h3 className='text-center text-3xl font-bold'>History Of Adeola Odutola College</h3>
-        <p className='px-10 py-5 text-justify'>ADEOLA ODUTOLA COLLEGE PRIVATE, a co-educational secondary institution, the first voluntary Agency Comprehensive High School in the former Western Region of Nigeria was officially opened on 28th February, 1964.  </p>
-        <p className='px-10 py-5 text-justify'>It was formed from the merger of Olu-Iwa College and Ijebu-Ode Secondary Commercial School both founded in 1948 and 1945 respectively.  Adeola Odutola College is situated on a table land on the Adeola Odutola College Road in Ijebu-Ode. </p>
-        <p className='px-10 py-5 text-justify'>With Government takeover of Schools in 1975, Chief (Dr.) Timothy Adeola Odutola, the Ogbeni Oja of Ijebu-Ode, the founder, conceded the giant institution to the Ogun State Government free of charge without receiving any compensation. Since then the school had been citadel of learning to all interested girls and boys for a sound academic pursuit.  </p>
-        <p className='px-10 py-5 text-justify'>The school had turned out good number of distinguished professionals, scholars and entrepreneur of high repute in all works of life throughout the nooks and crannies of the nation. </p>
-        <p className='px-10 py-5 text-justify'>Over the years, the expanded, students’ population coupled with inadequate instructional materials and lack of laboratory equipment had made teachers’ efforts uncomplimentary as a result of the low ebb of academic performance of the school. </p>
-        <p className='px-10 py-5 text-justify'>In 2009, the Ogun State Government resolved to return the former privately owned institutions to their original owners.  The dynasty of Chief (Dr.) Timothy Adeola Odutola embraced this opportunity to take back the school and bring to bare the founding fathers aura for academic excellence through the provision of adequate science laboratories facilities, low student-teacher ratio, attractive and conducive learning environment with highly qualified and diligent staff and high premium on Information and Communication Technology. On the return of the school, admission of students was allowed into J.S. 1 and S.S. 1 for 2010/2011 academic session.</p>
+        <p className='px-5 py-5 text-justify'>ADEOLA ODUTOLA COLLEGE PRIVATE, a co-educational secondary institution, the first voluntary Agency Comprehensive High School in the former Western Region of Nigeria was officially opened on 28th February, 1964.  </p>
+        <p className='px-5 py-5 text-justify'>It was formed from the merger of Olu-Iwa College and Ijebu-Ode Secondary Commercial School both founded in 1948 and 1945 respectively.  Adeola Odutola College is situated on a table land on the Adeola Odutola College Road in Ijebu-Ode. </p>
+        <p className='px-5 py-5 text-justify'>With Government takeover of Schools in 1975, Chief (Dr.) Timothy Adeola Odutola, the Ogbeni Oja of Ijebu-Ode, the founder, conceded the giant institution to the Ogun State Government free of charge without receiving any compensation. Since then the school had been citadel of learning to all interested girls and boys for a sound academic pursuit.  </p>
+        <p className='px-5 py-5 text-justify'>The school had turned out good number of distinguished professionals, scholars and entrepreneur of high repute in all works of life throughout the nooks and crannies of the nation. </p>
+        <p className='px-5 py-5 text-justify'>Over the years, the expanded, students’ population coupled with inadequate instructional materials and lack of laboratory equipment had made teachers’ efforts uncomplimentary as a result of the low ebb of academic performance of the school. </p>
+        <p className='px-5 py-5 text-justify'>In 2009, the Ogun State Government resolved to return the former privately owned institutions to their original owners.  The dynasty of Chief (Dr.) Timothy Adeola Odutola embraced this opportunity to take back the school and bring to bare the founding fathers aura for academic excellence through the provision of adequate science laboratories facilities, low student-teacher ratio, attractive and conducive learning environment with highly qualified and diligent staff and high premium on Information and Communication Technology. On the return of the school, admission of students was allowed into J.S. 1 and S.S. 1 for 2010/2011 academic session.</p>
       </section>
 
       <section id="student" className="px-8 py-[140px]">
