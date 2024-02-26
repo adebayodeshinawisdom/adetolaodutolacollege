@@ -22,17 +22,21 @@ const Home = () => {
     }
   ]
   const students = [
-      { name: "Dr. Kolawole Basiru",
-        post: "President",
-        image: "images/1.jpg"
-      },
-      { name: "Mr. Femi",
+      
+      // { name: "Mr. Femi",
+      //   post: "",
+      //   image: "images/2.jpg"
+      // },
+      { name: "Tunji Taiwo Olatunji",
         post: "",
-        image: "images/2.jpg"
-      },
-      { name: "Tunji Taiwo",
-        post: "",
-        image: "images/3.jpg"
+        Age: "29th July 1975",
+        Marital: "Married",
+        Location: "Abeokuta",
+        image: "images/3.jpg",
+        Email: "olatunjius@yahoo.com",
+        phone: "08034128121, 08026312581",
+        WorkAddress: "Ogun State Government, Ogun State Planning and Development Permit Authority, Oke Mosan"
+
       },
       { name: "Adesoji Adegunwa",
         post: "",
@@ -46,14 +50,14 @@ const Home = () => {
         post: "",
         image: "images/6.jpg"
       },
-      { name: "Mr. Abimbola Adesanya",
-        post: "",
-        image: "images/7.jpg"
-      },
-      { name: "Mrs. Lola Oyekan",
-        post: "",
-        image: "images/8.jpg"
-      },
+      // { name: "Mr. Abimbola Adesanya",
+      //   post: "",
+      //   image: "images/7.jpg"
+      // },
+      // { name: "Mrs. Lola Oyekan",
+      //   post: "",
+      //   image: "images/8.jpg"
+      // },
       { name: "Mrs Mopelola Oyekan",
         post: "",
         image: "images/9.jpg"
@@ -80,6 +84,11 @@ const Home = () => {
             <p><span className="font-bold"></span> Reunion Platform</p>
           </div>
         </div>
+      </section>
+
+      <section className='px-8 py-[140px'>
+        <p></p>
+
       </section>
 
       <section id="student" className="px-8 py-[140px]">
