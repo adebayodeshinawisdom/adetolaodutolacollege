@@ -1,3 +1,4 @@
+import Business from "@/components/Business";
 import { MenuIcon } from "lucide-react";
 import React from "react";
 
@@ -258,6 +259,13 @@ const Home = () => {
             </div>
           ))}
         </div>
+      </section>
+
+      <section className="py-10 mx-10">
+      <h3 className="text-3xl text-slate-200 font-bold py-5 text-center shadow-lg mb-10 bg-gradient-to-t from-yellow-400 to-red-900">
+        AOCOSA 94 Set Members Businesses
+        </h3>
+        <Business/>
       </section>
     </div>
   );
