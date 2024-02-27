@@ -211,7 +211,7 @@ const Home = () => {
 
         <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
           {students.map((student, index) => (
-            <div key={index}>
+            <div key={index} className="my-10">
               <img
                 src={student.image}
                 className="w-[60%] rounded-xl h-[60%] md:w-[250px] md:h-[250px]  mx-[80px] md:mx-[80px]"
