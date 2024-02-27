@@ -30,9 +30,9 @@ const Business = () => {
 
     ]
   return (
-    <div className='grid grid-cols-1 md:grid-cols-3'>
+    <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
         {business.map(business => (
-            <div className="card w-96 bg-base-100 shadow-xl">
+            <div className="card w-[300px] bg-base-100 shadow-xl">
             <figure><img src={business.image1} alt="" /></figure>
             <div className="card-body">
               <h2 className="card-title">{business.owner}</h2>
