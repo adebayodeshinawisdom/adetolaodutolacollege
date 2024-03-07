@@ -181,6 +181,51 @@ const CarouselDemo = () => {
     {
       src: '/images/gallery56.jpg'
     },
+    {
+      src: '/images/gallery57.jpg'
+    },
+    {
+      src: '/images/gallery58.jpg'
+    },
+    {
+      src: '/images/gallery59.jpg'
+    },
+    {
+      src: '/images/gallery61.jpg'
+    },
+    {
+      src: '/images/gallery62.jpg'
+    },
+    {
+      src: '/images/gallery63.jpg'
+    },
+    {
+      src: '/images/gallery64.jpg'
+    },
+    {
+      src: '/images/gallery65.jpg'
+    },
+    {
+      src: '/images/gallery66.jpg'
+    },
+    {
+      src: '/images/gallery67.jpg'
+    },
+    {
+      src: '/images/gallery68.jpg'
+    },
+    {
+      src: '/images/gallery70.jpg'
+    },
+    {
+      src: '/images/gallery71.jpg'
+    },
+    {
+      src: '/images/gallery72.jpg'
+    },
+    {
+      src: '/images/gallery69.jpg'
+    },
 
 ]
 
