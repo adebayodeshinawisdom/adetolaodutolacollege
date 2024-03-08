@@ -1,5 +1,6 @@
 import Business from "@/components/Business";
 import { MenuIcon } from "lucide-react";
+import Image from "next/image";
 import React from "react";
 
 const Home = () => {
@@ -205,6 +206,10 @@ const Home = () => {
         </div>
       </section>
 
+      <section className="mx-10 my-10">
+        <Image src="/images/happy.jpg" className="rounded-lg px-20" width={900} height={300}/>
+      </section>
+
       <section id="student" className="px-8 py-10">
         <h3 className="text-3xl text-slate-200 font-bold py-5 text-center shadow-lg mb-10 bg-gradient-to-t from-yellow-400 to-red-900">
         AOCOSA 94 Set
@@ -260,6 +265,8 @@ const Home = () => {
           ))}
         </div>
       </section>
+
+      
 
       <section className="py-10 mx-10">
       <h3 className="text-3xl text-slate-200 font-bold py-5 text-center shadow-lg mb-10 bg-gradient-to-t from-yellow-400 to-red-900">
